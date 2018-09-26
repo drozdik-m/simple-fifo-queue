@@ -1,7 +1,7 @@
 {
   "name": "simple-fifo-queue",
   "version": "1.0.0",
-  "description": "When I need a software implementation of a queue, I don’t want any overcomplicated module. I just need a light, simple and efficient code. If you want the same think, well nice, I made one.",
+  "description": "When I need a software implementation of a queue, I don't want any overcomplicated module. I just need a light, simple and efficient code. If you want the same think, well nice, I made one.",
   "main": "dist/src/queue.js",
   "typings": "dist/src/queue.d.ts",
   "scripts": {

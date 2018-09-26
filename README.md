@@ -21,7 +21,7 @@ npm install simple-fifo-queue --save
 
 Queue is a **way to queue your actions, data or whatever**. You will probably use a queue of some sort in BFS path searching algoritms. 
 
-Queue is FIFO (first-in, first-out) structure. Queue remembers all added values in its inserted order into a queue. You can pick up the first and the last added element, delete the first (front) element and push a new element, at the end of the queue.
+Queue is FIFO (first-in, first-out) structure. Queue remembers all added values in its inserted order. You can pick up the first and the last added element, delete the first (front) element and push a new element, at the end of the queue.
 
 ```javascript
 
@@ -85,7 +85,7 @@ let queue = new Queue<string>(); //<string> or whatever data type you want to st
 ```
 
 ```javascript
-var Q = require("simple-fifo-queue")
+var Q = require("simple-fifo-queue");
 
 //Instantiate new and empty Queue
 var queue = new Q.Queue();
@@ -96,7 +96,7 @@ var queue = new Q.Queue();
 
 Class Queue does not come with an iterator, because that would go against its logic. 
 
-All method have constant complexity - O(1).
+All method have constant complexity O(1) (the best one).
 
 Working with the Queue is easy. Here are all implemented methods:
 
@@ -106,13 +106,13 @@ Working with the Queue is easy. Here are all implemented methods:
 //Instantiate new and empty Queue
 var queue = new Queue();
 
-queue.Front(); //Returns element in the front
+queue.Front(); //Returns the element in the front
 
-queue.Back(); //Returns element in the back
+queue.Back(); //Returns the element in the back
 
 queue.Pop(); //Removes the element in the front
 
-queue.Push(); //Pushes new element in the back of the queue
+queue.Push(); //Pushes a new element in the back
 
 ```
 
