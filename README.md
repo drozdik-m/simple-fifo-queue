@@ -107,8 +107,10 @@ Working with the Queue is easy. Here are all implemented methods:
 var queue = new Queue();
 
 queue.Front(); //Returns the element in the front
+//Returns "null" if the queue is empty
 
 queue.Back(); //Returns the element in the back
+//Returns "null" if the queue is empty
 
 queue.Pop(); //Removes the element in the front
 
