@@ -1,7 +1,5 @@
-﻿declare module "assert-testing";
-import { Testing } from "assert-testing";
+﻿import { Testing } from "assert-testing";
 import { Queue } from "../src/queue.js";
-
 
 function TestQueue()
 {

@@ -1,4 +1,4 @@
-declare module "simple-double-linked-list";import { List } from "simple-double-linked-list";
+import { List } from "simple-double-linked-list";
 export declare class Queue<T> {
     queueList: List<T>;
     constructor();

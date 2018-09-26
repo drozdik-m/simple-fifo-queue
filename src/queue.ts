@@ -1,5 +1,4 @@
-﻿declare module "simple-double-linked-list";
-import { List } from "simple-double-linked-list";
+﻿import { List } from "simple-double-linked-list";
 
 //--------------------------------------------------
 //----------QUEUE-----------------------------------

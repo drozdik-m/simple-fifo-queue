@@ -1,1 +1,1 @@
-declare module "assert-testing";export {};
+export {};
