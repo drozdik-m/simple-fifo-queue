@@ -1,0 +1,32 @@
+{
+  "name": "simple-fifo-queue",
+  "version": "1.0.0",
+  "description": "When I need a software implementation of a queue, I don’t want any overcomplicated module. I just need a light, simple and efficient code. If you want the same think, well nice, I made one.",
+  "main": "dist/src/queue.js",
+  "typings": "dist/src/queue.d.ts",
+  "scripts": {
+    "test": "node dist/tests/queue_tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drozdik-m/simple-fifo-queue.git"
+  },
+  "keywords": [
+    "queue",
+    "easy",
+    "light",
+    "simple",
+    "JavaScript",
+    "TypeScript"
+  ],
+  "author": "Martin Drozdík <info@bonsai-development.cz> (http://bonsai-development.cz)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/drozdik-m/simple-fifo-queue/issues"
+  },
+  "homepage": "https://github.com/drozdik-m/simple-fifo-queue#readme",
+  "dependencies": {
+    "assert-testing": "^1.0.9",
+    "simple-double-linked-list": "^1.0.3"
+  }
+}
