@@ -1,5 +1,5 @@
 
-![Queue class - banner](images/simple-fifo-queue.png?raw=true "Queue - simple and light queue")
+![Queue class - banner](images/queue-heading-image.png?raw=true "Queue - simple and light queue")
 
 # Queue
 
