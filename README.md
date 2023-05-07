@@ -1,6 +1,3 @@
-
-![Queue class - banner](images/queue-heading-image.png?raw=true "Queue - simple and light queue")
-
 # Queue
 
 "Queue" is a **simple queue class**. This module is easy to use, light, small and has **minimum dependencies**.
